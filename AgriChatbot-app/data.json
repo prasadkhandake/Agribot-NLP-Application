@@ -1,0 +1,130 @@
+{
+	"intents": 
+	[
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Agriculture, Farming. You can ask me about farming. I will give you answer about agriculture"],
+         "context": [""]
+        },
+        {"tag": "farming ",
+         "patterns": ["What is Farming", "Farming", "What do you know about farming"],
+         "responses": ["farming is the act or process of working the ground, planting seeds, and growing edible plants."],
+         "context": [""]
+        },
+        {"tag": "branches_of_agriculture ",
+         "patterns": ["What are the branches of agriculture", "agriculture branches", "What do you know about branches of agriculture"],
+         "responses": ["There are five branches of agriculture: Agronomy,Agriculture Engineering,Horticulture,Agricultural Economics,Animal Science "],
+         "context": [""]
+        },
+        {"tag": "agronomy ",
+         "patterns": ["What is Agriculture Engineering", "Agriculture Engineering", "What do you know about Agriculture Engineering"],
+         "responses": ["Agronomy focuses on soil and how different crops react to different kinds of soil."],
+         "context": [""]
+        },
+        {"tag": "agriculture_engineering ",
+         "patterns": ["What is agriculture engineering", "agriculture engineering", "What do you know about agriculture engineering"],
+         "responses": ["Ag engineering focuses on the various machines used in farming and how those machines work."],
+         "context": [""]
+        },
+        {"tag": "nutrients",
+         "patterns": ["What is Nutrients", "Nutrients", "What do you know about Nutrients"],
+         "responses": ["Nutrients have a direct impact on things like protein production, photosynthesis, and root, shoot, and leaf development."],
+         "context": [""]
+        },
+        {"tag": "water_availability ",
+         "patterns": ["What is Water Availability", "Water Availability", "What do you know about Water Availability"],
+         "responses": ["The amount of water your crops receive plays a direct role in the amount of crops you produce. Too little water and your crops will shrivel up and die. Too much water and you end up with wasted water, energy, and labor."],
+         "context": [""]
+        },
+        {"tag": "climate ",
+         "patterns": ["What is Climate", "Climate", "What do you know about Climate"],
+         "responses": ["The climate your crops are planted in heavily influences crop production. Factors such as humidity, temperature, and wind can wreak havoc on your crops."],
+         "context": [""]
+        },
+        {"tag": "pests_and_diseases ",
+         "patterns": ["What is Pests and diseases", "Pests and diseases", "What do you know about Pests and diseases"],
+         "responses": ["Pests and diseases damage your crops directly by eating or destroying the plants themselves. But pests also destroy your crops in less obvious ways like damaging plant roots, altering the ability of the plant to absorb nutrients."],
+         "context": [""]
+        },
+        {"tag": "food_desert",
+         "patterns": ["What is food desert", "food desert", "What do you know about food desert"],
+         "responses": ["A food desert is an often-impoverished area that does not have access to affordable healthy food options."],
+         "context": [""]
+        },
+        {"tag": "factors_that_affect_crop_production",
+         "patterns": ["What are the factors that affect crop production", "factors that affect crop production ", "What do you know about factors that affect crop production "],
+         "responses": ["There are four major factors that affect crop production during the farming process: Nutrients,Water Availability,Climate,Pests and diseases "],
+         "context": [""]
+        },
+        {"tag": "digital_farming",
+         "patterns": ["What is Digital farming", "Digital farming", "What do you know about Digital farming"],
+         "responses": ["The term ‘digital farming’ refers to technologies and trends being used to change the way growers control their farm operations and analyze their yield performance.","Digital farming is all about giving farmers real-time insights into their farm so they can analyze and make optimal decisions for their farms."],
+         "context": [""]
+        },
+        {"tag": "indoor_farming",
+         "patterns": ["What is Indoor farming", "Indoor farming", "What do you know about Indoor farming"],
+         "responses": ["Indoor farming is the practice and process of growing crops and produce in vertically stacked layers."],
+         "context": [""]
+        },
+        {"tag": "vertical_farming",
+         "patterns": ["What is Vertical farming", "Vertical farming", "What do you know about Vertical farming"],
+         "responses": ["Vertical farming is the practice and process of growing crops and produce within a vertically stacked layer.","As a type of indoor farming, vertical farming uses CEA or controlled environment agriculture, which helps to optimize plant growth by using different techniques like hydroponics, aquaponics, and aeroponics."],
+         "context": [""]
+        },
+        {"tag": "greenhouse",
+         "patterns": ["What is greenhouse ", "greenhouse ", "What do you know about greenhouse "],
+         "responses": ["A greenhouse is a building with glass walls and ceiling/roof that are used to grow plants.","Greenhouses are able to stay warm inside using sunlight to warm both the plants and the air within. Sunlight is also used for photosynthesis, though supplemental artificial lighting can also be used."],
+         "context": [""]
+        },
+        {"tag": "benefits_of_a_greenhouse",
+         "patterns": ["What is Benefits of a greenhouse", "Benefits of a greenhouse", "What do you know about Benefits of a greenhouse","advantages of greenhouse"],
+         "responses": ["farming is the act or process of working the ground, planting seeds, and growing edible plants."],
+         "context": [""]
+        },
+        {"tag": "disadvantages_of_a_greenhouse",
+         "patterns": ["What are the disadvantages of a greenhouse", "disadvantages of a greenhouse", "What do you know about disadvantages of a greenhouse"],
+         "responses": ["Some disadvantages of a greenhouse include choosing a proper location that will be able to capture the sunlight during all seasons and temperature and ventilation management, so crops don’t die, trapping pests or diseases within."],
+         "context": [""]
+        },
+        {"tag": "aeroponics",
+         "patterns": ["What is Aeroponics ", "Aeroponics ", "What do you know about Aeroponics "],
+         "responses": ["Aeroponics is the process of growing plants within an air or mist environment. It’s one of the six basic types of hydroponic plant-growing method where plants are suspended with the roots exposed in the air."],
+         "context": [""]
+        },
+        {"tag": "crop_rotations",
+         "patterns": ["What is Crop rotations", "Crop rotations", "What do you know about Crop rotations"],
+         "responses": ["Crop rotations are when farmers grow different types of crops at different seasons. For example, growing lettuce in the spring and then cauliflower on the same land in the summer.","The point of crop rotation is to not deplete only one set of nutrients from the soil, reducing soil erosion and increasing soil fertility. "],
+         "context": [""]
+        },
+        {"tag": "transplanting",
+         "patterns": ["What is Transplanting ", "Transplanting ", "What do you know about Transplanting "],
+         "responses": ["Transplanting is taking a rooted crop and replanting it elsewhere.","Transplanting is common practice for transferring baby plants from their optimal sprouting conditions, a nursery for example, to another location, like outdoors."],
+         "context": [""]
+        },
+        {"tag": "irrigation",
+         "patterns": ["What is Irrigation", "Irrigation", "What do you know about Irrigation"],
+         "responses": ["Irrigation is the process of controlling water supply through artificial means, such as sprinklers or pipes.","Irrigation provides a regular, consistent amount of water to crops, removing the need to rely on rain. It also improves production and protects crops from droughts."],
+         "context": [""]
+        }
+   ]
+}
